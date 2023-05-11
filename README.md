@@ -1,6 +1,16 @@
-# Starter Next/Hardhat Project
+# Smart Contract Management Assessment
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+This project is a simulates how we can connect our solidity smart contract to our digital wallets and to the frontend.
+
+## Description
+
+This project is written in Solidity and JavaScript. Solidity was used to develop the smart contract and JaveScript for the frontend. It demonstrates how we could connect our smart contracts to digital wallets such as Metamask and to also demonstrate how we can integrate and interact with our smart contracts in the frontend UI.
+
+## Getting Started
+
+### Executing Program
+
+To run this program, you will first need to clone this repository so you can have a local copy of your own. After that, open the project in VS Code and run the following commands in the project terminal:
 
 1. Inside the project directory, in the terminal type: npm i
 2. Open two additional terminals in your VS code
@@ -8,5 +18,12 @@ After cloning the github, you will want to do the following to get the code runn
 4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
 5. Back in the first terminal, type npm run dev to launch the front-end.
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+After the last step, the project should be running on your local host. Typically at http://localhost:3000/
+
+## Authors
+
+OlivarezK
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
